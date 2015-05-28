@@ -1,5 +1,5 @@
 === TZ Flickr Widget ===
-Contributors: tuyennv
+Contributors: tuyennv, templaza
 Donate link: https://www.templaza.com/tz_membership/downloadinfo/157-plg-tz-flickr-wordpress.html
 Tags: flickr, widget, badge, feed, photostream, gallery, photo gallery, image-widget, pretty photo
 Requires at least: 3.0.1
