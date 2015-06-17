@@ -3,7 +3,7 @@
 	Plugin Name: TZ Flickr Widget
 	Plugin URI:
 	Description: Display your Flickr latest photostream in widget with Pretty Photo. Easy to customize, just put your Flickr id and your widget ready to lunch.
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: tuyennv
 	Author URI: http://www.templaza.com
 	License: Under GPL2
