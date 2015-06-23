@@ -45,6 +45,9 @@ You go to TZ Flickr Widget Dashboard and checked in 'Use Pretty Photo'
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed limit photos when add multiple Flickr widget per page.
+
 = 1.0.1 =
 * prettyPhoto updated to 3.1.6 - latest stable and secure version
 

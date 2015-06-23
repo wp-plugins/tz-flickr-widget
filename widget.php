@@ -66,7 +66,9 @@ class Pretty_Flickr_Widget extends WP_Widget {
         );
 
         extract( $cur_arg );
+        $id_pre = rand(2,200);
 
+        $flickr_class = 'pretty_flickr'.$id_pre.'';
         // print the before widget
         echo $before_widget;
 
@@ -77,7 +79,7 @@ class Pretty_Flickr_Widget extends WP_Widget {
         ?>
 
         <div class="tz-flickr">
-          <ul class="flickr pretty_flickr"></ul>
+          <ul class="flickr pretty_flickr <?php echo $flickr_class; ?>"></ul>
         </div>
 
         <?php
@@ -86,7 +88,7 @@ class Pretty_Flickr_Widget extends WP_Widget {
         ?>
         <script type="text/javascript">
             jQuery(document).ready(function(){
-                jQuery('.pretty_flickr').jflickrfeed({
+                jQuery('.<?php echo $flickr_class; ?>').jflickrfeed({
                     limit: <?php echo $count;?>,
                     qstrings: {
                         id: '<?php echo $flickr_id;?>'
